@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tracegate"
+version = "0.1.0"
+description = "Bounded local credential checks for test artifacts before upload"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+tracegate = "tracegate.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["tracegate*"]
