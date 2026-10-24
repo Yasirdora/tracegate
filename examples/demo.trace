@@ -1,0 +1,3 @@
+{"type":"before","method":"fill","params":{"value":"demo-password-123"}}
+{"type":"resource-snapshot","snapshot":{"request":{"headers":[{"name":"Authorization","value":"Bearer synthetic-token-123456"}]}}}
+{"type":"context-options","cookies":[{"name":"session","value":"synthetic-cookie"}]}
